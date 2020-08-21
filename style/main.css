@@ -1,0 +1,843 @@
+/* === Config styles
+============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.wrap {
+  width: 1400px;
+  height: 1009px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*  font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+    */
+
+/* === Header
+============================== */
+.header {
+  width: 100%;
+  height: 71px;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+}
+.header__logo {
+  display: inline-block;
+  width: 79px;
+  height: 27px;
+  margin: 21px 582px 0 150px;
+}
+.header__menu {
+  display: inline-block;
+  width: 500px;
+}
+.menu__features {
+  display: inline-block;
+
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0 46px 0 0;
+}
+.menu__about {
+  display: inline-block;
+
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0 46px 0 0;
+}
+.menu__pricing {
+  display: inline-block;
+
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0 46px 0 0;
+}
+.menu__reviews {
+  display: inline-block;
+
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0 46px 0 0;
+}
+.menu__contact {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0 46px 0 0;
+}
+
+/* === Home Page
+============================== */
+
+.chief {
+  width: 100%;
+  height: 712px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/home/background.jpeg ") no-repeat center;
+  background-size: cover;
+  display: inline-block;
+}
+.chief__home {
+  margin: 109px 143px 0 147px;
+}
+.home__info {
+  display: inline-block;
+  width: 530px;
+  margin: 0 210px 0 150px;
+  text-align: left;
+}
+.info__logo {
+  margin: 0 0 33px 0;
+  width: 175px;
+  height: 60px;
+}
+.info__title {
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 0 36px 0;
+}
+.info__line {
+  width: 64px;
+  height: 2px;
+  margin: 0 0 30px 0;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+.info__text {
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.4;
+  margin: 0 0 44px 0;
+}
+
+.info__link {
+  width: 135px;
+  height: 42px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 15px 33px 14px 31px;
+  box-sizing: border-box;
+  color: #ffffff;
+  line-height: 10px;
+  font-size: 15px;
+  outline: 0;
+  background: transparent;
+}
+.home__form {
+  display: inline-block;
+  margin: 0 143px 0 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+}
+.form__cap {
+  color: rgb(51, 51, 51);
+  background-color: rgb(245, 245, 245);
+  width: 360px;
+  height: 54px;
+  border-radius: 10%;
+  padding: 18px 0 0 0;
+  font-weight: 700;
+}
+.cap__free {
+  color: rgb(255, 139, 56);
+  text-transform: uppercase;
+}
+.form__name {
+  width: 285px;
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 36px 40px;
+}
+.form__email {
+  width: 285px;
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 47px 40px;
+}
+.form__password {
+  width: 285px;
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 49px 40px;
+}
+.form__started {
+  width: 360px;
+  height: 54px;
+  border-radius: 6%;
+  background-color: rgb(255, 139, 56);
+  padding: 15px 0 0 0;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+/* === Media
+============================== */
+.media {
+  width: 100%;
+  height: 106px;
+  display: inline-block;
+  margin: 0;
+}
+.media__social {
+  display: inline-block;
+  width: 360px;
+  margin: 20px 0 0 32px;
+}
+.social__title {
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.social__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.media__picture {
+  display: inline-block;
+  margin: 0 0 0 80px;
+  width: 634px;
+  height: 46px;
+}
+.picture__item {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 0 85px 0 0;
+}
+
+.picture__item:nth-child(1) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(2) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(3) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(4) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(5) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(6) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+.picture__item:nth-child(7) > .picture__link > img {
+  height: 46px;
+  width: 46px;
+}
+
+/* === Tabs
+============================== */
+.tabs {
+  display: inline-block;
+  width: 100%;
+  height: 596px;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+}
+.tabs__tab {
+  display: inline-block;
+  width: 112px;
+  height: 336px;
+  margin: 148px 100px 0 142px;
+}
+.tab__first {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  width: 112px;
+  height: 112px;
+  background-color: rgb(255, 139, 56);
+  padding: 50px 0 0 0;
+}
+.tab__second {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  width: 112px;
+  height: 112px;
+  background-color: rgb(51, 51, 51);
+  padding: 50px 0 0 0;
+  margin: 0 0 1px 0;
+}
+.tab__third {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  width: 112px;
+  height: 112px;
+  background-color: rgb(51, 51, 51);
+  padding: 50px 0 0 0;
+}
+.tabs__charge {
+  display: inline-block;
+  width: 476px;
+  height: 330px;
+  margin: 148px 103px 0 0;
+}
+.charge__title {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  padding: 8px 0 52px 0;
+}
+.charge__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding: 0 0 51px 0;
+}
+
+.charge__link {
+  background-color: rgb(255, 139, 56);
+  width: 121px;
+  height: 46px;
+  border: 2px solid rgb(255, 139, 56);
+  padding: 13px 15px 14px 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  line-height: 10px;
+  font-size: 15px;
+  outline: 0;
+  margin: 0 355px 0 0;
+}
+.text__paragraph {
+  margin-top: 15px;
+}
+.tabs__building {
+  width: 230px;
+  height: 253px;
+  display: inline-block;
+  background: url("../img/tabs/building.png");
+  margin: 0 149px 0 0;
+}
+
+/* === Awesome
+============================== */
+.awesome {
+  width: 100%;
+  height: 591px;
+}
+.awesome__title {
+  font-family: "Raleway", sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 106px 0 0 0;
+}
+.awesome__line {
+  background-color: rgb(255, 139, 56);
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+  border: none;
+  color: rgb(255, 165, 0);
+}
+.awesome__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 80px 0;
+}
+/* === Card
+============================== */
+.card {
+  display: inline-block;
+  width: 350px;
+  margin: 0 16px 102px 16px;
+}
+.card__title {
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 29px 0 25px 0;
+}
+.card__text {
+  font-size: 14px;
+  color: rgb(134, 135, 139);
+  font-weight: 400;
+}
+
+/* === Card Icon
+============================== */
+.card:nth-child(1) > .card__icon {
+  background: url("../img/lamp.png") no-repeat center center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 139, 56);
+  border-radius: 50%;
+}
+.card:nth-child(2) > .card__icon {
+  background: url("../img/keyboard.png") no-repeat center center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 139, 56);
+  border-radius: 50%;
+}
+.card:nth-child(3) > .card__icon {
+  background: url("../img/lightning.png") no-repeat center center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 2px solid rgb(255, 139, 56);
+  border-radius: 50%;
+}
+
+/* === Pricing
+============================== */
+
+.pricing {
+  width: 100%;
+  height: 884px;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+}
+.pricing__title {
+  font-family: "Raleway", sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 109px 0 0 0;
+}
+.pricing__line {
+  background-color: rgb(255, 139, 56);
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+  border: none;
+  color: rgb(255, 165, 0);
+}
+.pricing__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 55px 0;
+}
+
+.pricing__table {
+  display: inline-block;
+  margin: 0 20px;
+}
+.table__package {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  width: 343px;
+  height: 59px;
+  padding: 15px 0 0 0;
+  margin: 0 0 1px 0;
+}
+.table__price {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  width: 343px;
+  height: 100px;
+  margin: 0 0 1px 0;
+  padding: 15px 0 0 0;
+}
+.price__number {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 70px;
+}
+.table__payment {
+  background-color: rgb(51, 51, 51);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-style: italic;
+  padding: 14px 0;
+  width: 343px;
+  height: 51px;
+  margin: 0 0 1px 0;
+}
+.table__line {
+  height: 5px;
+  width: 343px;
+  background-color: rgb(255, 139, 56);
+}
+.table__popular {
+  background-color: rgb(255, 139, 56);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0;
+}
+
+.table__space {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+.table__bandwidth {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+.table__websites {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+.table__customizations {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+.table__integration {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+.table__supports {
+  background-color: rgb(255, 255, 255);
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  width: 343px;
+  height: 40px;
+  margin: 0 0 1px 0;
+}
+
+/* === Saying
+============================== */
+
+.saying {
+  width: 100%;
+  height: 591px;
+}
+.saying__title {
+  font-family: "Raleway", sans-serif;
+  color: rgb(33, 33, 33);
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 109px 0 0 0;
+}
+.saying__line {
+  background-color: rgb(255, 139, 56);
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+  border: none;
+  color: rgb(255, 165, 0);
+}
+.saying__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 55px 0;
+}
+.speech {
+  display: inline-block;
+  width: 273px;
+  margin: 0 60px;
+}
+.speech__replica {
+  background: url("../img/saying/speech.png");
+  width: 273px;
+  height: 147px;
+  font-size: 14px;
+  text-align: left;
+  font-style: italic;
+  padding: 19px 13px 0 12px;
+}
+.speech__naming {
+  display: inline-block;
+  height: 70px;
+  width: 273px;
+  margin: 8px 0 0 0;
+}
+.naming__avatar {
+  display: inline-block;
+  background: url("../img/saying/avatar.png");
+  width: 70px;
+  height: 70px;
+  margin-left: 8px;
+  float: left;
+}
+.naming__name {
+  display: inline-block;
+  margin: 17px 0 0 15px;
+  float: left;
+}
+.name__surname {
+  font-size: 20px;
+  font-weight: 700;
+}
+.name__position {
+  font-size: 14px;
+  color: rgb(134, 135, 139);
+  float: left;
+}
+
+/* === Download
+============================== */
+.download {
+  width: 100%;
+  height: 322px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/city.jpeg) no-repeat center;
+  background-size: cover;
+}
+.download__title {
+  color: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 76px 0 26px 0;
+  opacity: 1;
+}
+.download__line {
+  width: 64px;
+  height: 2px;
+  margin: 0 auto 23px auto;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+.download__text {
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.4;
+  margin: 0 0 33px 0;
+}
+.download__link {
+  width: 135px;
+  height: 42px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 15px 33px 14px 31px;
+  box-sizing: border-box;
+  color: #ffffff;
+  line-height: 10px;
+  font-size: 15px;
+  outline: 0;
+  background: transparent;
+}
+/* === Contact
+============================== */
+.contact {
+  width: 100%;
+  height: 613px;
+}
+.contact__title {
+  color: rgb(33, 33, 33);
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 109px 0 0 0;
+  opacity: 1;
+}
+.contact__line {
+  background-color: rgb(255, 139, 56);
+  width: 64px;
+  height: 2px;
+  margin: 30px auto;
+  border: none;
+  color: rgb(255, 165, 0);
+}
+
+.contact__text {
+  color: rgb(134, 135, 139);
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 1;
+  margin: 0 0 80px 0;
+}
+.field {
+  display: inline-block;
+  width: 527px;
+  margin: 0 33px 0 33px;
+  vertical-align: baseline;
+}
+.field__name {
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 30px 0;
+}
+.field__email {
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 30px 0;
+}
+.field__subject {
+  height: 31px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 30px 0;
+}
+
+.field__message {
+  text-align: left;
+  color: rgb(189, 189, 189);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0 0 13px;
+  border-bottom: solid rgb(189, 189, 189);
+  margin: 0 0 30px 0;
+}
+
+.contact__link {
+  background-color: rgb(255, 139, 56);
+  width: 148px;
+  height: 46px;
+  border: 2px solid rgb(255, 165, 0);
+  padding: 13px 15px 14px 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  line-height: 10px;
+  font-size: 15px;
+  outline: 0;
+  margin: 13px 0 0 0;
+}
+
+/* === Footer
+============================== */
+.footer {
+  width: 100%;
+  height: 101px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer__item {
+  display: inline-block;
+  margin: 39px 0 15px 0;
+  height: 23px;
+  width: 23px;
+  padding: 0 23px;
+}
+
+.footer__item:nth-child(1) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(2) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(3) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(4) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(5) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(6) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__item:nth-child(7) > .footer__link > img {
+  height: 23px;
+  width: 23px;
+}
+.footer__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  opacity: 0.5019607843137255;
+  color: rgb(255, 255, 255);
+}
